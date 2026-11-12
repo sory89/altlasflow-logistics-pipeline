@@ -223,6 +223,9 @@ AtlasFlow/
 │   └── prometheus/
 ├── docs/
 │   └── architecture/
+├── image/
+│   ├── image.png
+│   └── image-db.png
 ├── scripts/
 ├── src/
 │   ├── generator/
@@ -249,7 +252,6 @@ GitHub Actions automates repository validation:
 - Configuration validation.
 - Data contract checks.
 - Static repository validation.
-
 
 ## 🎯 Project Objectives
 

@@ -170,15 +170,10 @@ Monitored components:
 ### Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/AtlasFlow.git
-cd AtlasFlow
+git clone https://github.com/YOUR_USERNAME/altlasflow-logistics-pipeline.git
+cd altlasflow-logistics-pipeline/
 ```
 
-### Configure environment
-
-```bash
-cp .env.example .env
-```
 
 ### Create Python environment
 

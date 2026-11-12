@@ -36,7 +36,7 @@ The solution implements Change Data Capture (CDC) using Debezium, event streamin
 
 ## 🏗️ Architecture
 
-![AtlasFlow Architecture](docs/architecture/atlasflow-architecture.png)
+![AtlasFlow Architecture](image/image.png)
 
 ### Data Pipeline
 
@@ -110,7 +110,7 @@ PostgreSQL database: `atlasflow_ops`
 | tracking_events | Shipment tracking history |
 | disruptions | Logistics disruptions |
 
-![Data Model](docs/architecture/data-model.png)
+![Data Model](image/image-db.png)
 
 ## ⚙️ Technology Stack
 
@@ -250,16 +250,6 @@ GitHub Actions automates repository validation:
 - Data contract checks.
 - Static repository validation.
 
-## 🛣️ Future Enhancements
-
-- Apache Airflow for workflow orchestration.
-- dbt for SQL transformations.
-- Great Expectations for data quality.
-- OpenLineage for data lineage.
-- HashiCorp Vault for secrets management.
-- Loki and OpenTelemetry for observability.
-- Kubernetes and Helm for production deployment.
-- Terraform for infrastructure provisioning.
 
 ## 🎯 Project Objectives
 
